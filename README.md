@@ -7,25 +7,25 @@ writen by Anas Handaru
 1. place mongopanda.py on the desired directory
 
 2. import the module
-'''python
+```python
 import mongopanda as mp
-'''
+```
 
 3. connect to mongodb specify host and port
-'''python
+```python
 client = mp.client('localhost',21017)
-'''
+```
 or leave it as default 
-'''python
+```python
 client = mp.client()
-'''
+```
 
 4. inserting panda dataframe on particular topic
-'''python
+```python
 counter = client.insert('anytopic',testdf)
-'''
+```
 
 5. retrieving from mongodb to dataframe from particulat topic
-'''pyhton
+```pyhton
 dataFrame = client.retrieve('anytopic')
-'''
+```
