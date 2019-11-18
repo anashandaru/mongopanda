@@ -4,7 +4,7 @@ writen by Anas Handaru
 
 
 #How to use
-1. place mongopanda.py on the desired directory
+1. place mongopanda.py on desired directory
 
 2. import the module
 ```python
