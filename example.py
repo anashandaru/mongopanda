@@ -8,4 +8,5 @@ client = mp.client()
 print('inserting dataframe to mongodb (smdbProject)')
 counter = client.insert('anytopic',testdf)
 
-print(counter)
+print('retrieve all data from specific topic')
+dataFrame = client.retrieve('anytopic')
